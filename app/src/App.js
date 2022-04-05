@@ -1,5 +1,10 @@
 import React from "react"
+import CarouselSlide from "./components/carrossel/index"
 
-const App = () => {}
+const App = () => (
+  <>
+    <CarouselSlide />
+  </>
+)
 
 export default App
