@@ -5,11 +5,17 @@ const GlobalStyles = createGlobalStyle`
     --gray-simple: #353333;
     --black-simple: #1F1E1E;
     --white-simple: #ffff;
+    --purple-simple; #673AB7;
   }
 
   body{
+    font-family: 'Signika', sans-serif;
     background: var(--black-simple);
     color: var(--white-simple);
+  }
+
+  h1{
+    font-family: 'Poiret One', cursive;
   }
 
   *,
@@ -23,7 +29,6 @@ const GlobalStyles = createGlobalStyle`
   button{
     cursor: pointer;
   }
-
 `
 
 export default GlobalStyles
