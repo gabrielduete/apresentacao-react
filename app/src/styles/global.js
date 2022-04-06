@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Signika', sans-serif;
     background: var(--black-simple);
     color: var(--white-simple);
+    margin: 50px;
   }
 
   h1{
