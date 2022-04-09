@@ -3,7 +3,12 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["prettier", "import", "plugin:react/recommended", "airbnb"],
+  "extends": [
+    "prettier",
+    "plugin:react/jsx-runtime",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -12,7 +17,19 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
+  // "import/no-extraneous-dependencies": [
+  //   "error",
+  //   {
+  //     "devDependencies": false,
+  //     "optionalDependencies": false,
+  //     "peerDependencies": false
+  //   }
+  // ],
   "rules": {
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off"
   }
+  // "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
 }
