@@ -2,23 +2,36 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
   :root {
+    // Colors
     --gray-simple: #353333;
     --black-simple: #1F1E1E;
     --white-simple: #ffff;
-    --purple-simple; #673AB7;
-    --space-lang: 1200px;
+    --purple-simple: #673AB7;
+    --blue-simple: #61DAFB;
+
+    // Spaces
+    --space-lang: 1400px;
     --space-short: 700px;
+
+    // Fonts
+    --font-title: 4em;
+    --font-medium: 1.5em;
   }
 
   body{
     font-family: 'Signika', sans-serif;
-    background: var(--black-simple);
+    background: rgb(38,37,40);
+    background: linear-gradient(90deg, rgba(38,37,40,1) 0%, rgba(12,11,13,1) 50%, rgba(31,30,29,1) 100%);
     color: var(--white-simple);
     margin: 50px;
   }
 
   h1{
     font-family: 'Poiret One', cursive;
+  }
+
+  span{
+    color: var(--blue-simple);
   }
 
   *,
