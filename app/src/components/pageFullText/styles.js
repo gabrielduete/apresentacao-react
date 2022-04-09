@@ -1,7 +1,9 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
-export const Wrapper = styled.div`
-  width: 1200px;
-  height: 700px;
+const Wrapper = styled.div`
+  width: var(--space-lang);
+  height: var(--space-short);
   background: red;
 `
+
+export default Wrapper

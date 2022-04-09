@@ -1,8 +1,17 @@
 import React from 'react'
-import * as S from './styles'
+import PropTypes from 'prop-types'
+import Wrapper from './styles'
 
-const FullText = (props) => {
-  return <S.Wrapper><h1>{props.title}</h1></S.Wrapper>
+function FullText({ title }) {
+  return (
+    <Wrapper>
+      <h1>{title}</h1>
+    </Wrapper>
+  )
+}
+
+FullText.propTypes = {
+  title: PropTypes.string.isRequired,
 }
 
 export default FullText

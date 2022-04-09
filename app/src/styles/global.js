@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
   :root {
@@ -6,6 +6,8 @@ const GlobalStyles = createGlobalStyle`
     --black-simple: #1F1E1E;
     --white-simple: #ffff;
     --purple-simple; #673AB7;
+    --space-lang: 1200px;
+    --space-short: 700px;
   }
 
   body{
