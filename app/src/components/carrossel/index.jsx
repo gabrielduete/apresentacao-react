@@ -11,7 +11,11 @@ function CarouselSlide() {
       tiltEasing='cubic-bezier(0.110, 1, 1.000, 0.210)'
       transitionMs={700}
     >
-      <FullText title='A IMPORTÂNCIA DO REACT' />
+      <FullText
+        title='A IMPORTÂNCIA DO '
+        purpleText='REACT'
+        text='Por Athyrson Lopes & Gabriel Duete'
+      />
     </Carousel>
   )
 }
