@@ -20,8 +20,8 @@ const GlobalStyles = createGlobalStyle`
 
   body{
     font-family: 'Signika', sans-serif;
-    background: rgb(38,37,40);
-    background: linear-gradient(90deg, rgba(38,37,40,1) 0%, rgba(12,11,13,1) 50%, rgba(31,30,29,1) 100%);
+    background: rgb(42,41,40);
+    background: linear-gradient(90deg, rgba(42,41,40,1) 0%, rgba(12,11,13,1) 50%, rgba(42,41,40,1) 100%);
     color: var(--white-simple);
     margin: 50px;
   }
