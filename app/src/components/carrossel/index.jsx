@@ -1,5 +1,6 @@
 import Carousel from 'react-elastic-carousel'
 import FullText from '../pageFullText/index'
+import PageImg from '../pageImg'
 
 function CarouselSlide() {
   return (
@@ -15,6 +16,7 @@ function CarouselSlide() {
         purpleText='REACT'
         text='Por Athyrson Lopes & Gabriel Duete'
       />
+      <PageImg title='DESENVOLVIMENTO' purpleText='WEB' />
     </Carousel>
   )
 }

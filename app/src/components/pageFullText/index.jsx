@@ -18,6 +18,7 @@ function FullText({ title, text, purpleText }) {
 
 FullText.propTypes = {
   title: PropTypes.string.isRequired,
+  purpleText: PropTypes.string,
   text: PropTypes.string.isRequired,
 }
 

@@ -11,6 +11,7 @@ const Container = ({ children, center }) => {
 
 Container.protoTypes = {
   children: PropTypes.node.isRequired,
+  center: PropTypes.bool,
 }
 
 export default Container
