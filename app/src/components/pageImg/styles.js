@@ -1,18 +1,29 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 0.6fr 1.4fr;
+  grid-template-areas:
+    'title title'
+    'text image';
+  margin: 30px;
 `
 
 export const Title = styled.h1`
-  margin: 30px;
+  grid-area: title;
   font-size: var(--font-title);
 `
 
-export const Text = styled.p`
+export const Text = styled.div`
+  grid-area: text;
   font-size: var(--font-medium);
-  margin-top: 10px;
+  margin-left: 20px;
+`
+
+export const Image = styled.img`
+  grid-area: image;
+  align-content: end;
+
+  width: 560px;
 `

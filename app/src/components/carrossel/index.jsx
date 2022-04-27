@@ -1,6 +1,16 @@
 import Carousel from 'react-elastic-carousel'
 import FullText from '../pageFullText/index'
 import PageImg from '../pageImg'
+import DevWeb from '../../assets/img/undraw_Internet_on_the_go_re_vben.png'
+
+const TextDevWeb = () => (
+  <ul>
+    <li>O que é Desenvolvimento Web?</li>
+    <li>Quais as vantagens dos sistemas web?</li>
+    <li>O que faz uma pessoa Desenvolvedora Web?</li>
+    <li>Principais linguagens utilizadas no Desenvolvimento Web</li>
+  </ul>
+)
 
 function CarouselSlide() {
   return (
@@ -16,7 +26,12 @@ function CarouselSlide() {
         purpleText='REACT'
         text='Por Athyrson Lopes & Gabriel Duete'
       />
-      <PageImg title='DESENVOLVIMENTO' purpleText='WEB' />
+      <PageImg
+        title='DESENVOLVIMENTO'
+        purpleText='WEB'
+        text={TextDevWeb()}
+        srcImg={DevWeb}
+      />
     </Carousel>
   )
 }
