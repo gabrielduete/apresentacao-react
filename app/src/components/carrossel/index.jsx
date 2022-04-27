@@ -2,15 +2,8 @@ import Carousel from 'react-elastic-carousel'
 import FullText from '../pageFullText/index'
 import PageImg from '../pageImg'
 import DevWeb from '../../assets/img/undraw_Internet_on_the_go_re_vben.png'
-
-const TextDevWeb = () => (
-  <ul>
-    <li>O que é Desenvolvimento Web?</li>
-    <li>Quais as vantagens dos sistemas web?</li>
-    <li>O que faz uma pessoa Desenvolvedora Web?</li>
-    <li>Principais linguagens utilizadas no Desenvolvimento Web</li>
-  </ul>
-)
+import Tecs from '../../assets/img/undraw_Static_website_re_x70h.png'
+import { TextDevWeb, TextTecs } from './index.data'
 
 function CarouselSlide() {
   return (
@@ -22,15 +15,38 @@ function CarouselSlide() {
       transitionMs={700}
     >
       <FullText
-        title='A IMPORTÂNCIA DO '
-        purpleText='REACT'
+        title={
+          <>
+            A IMPORTÂNCIA DO <span>REACT</span>
+          </>
+        }
         text='Por Athyrson Lopes & Gabriel Duete'
       />
       <PageImg
-        title='DESENVOLVIMENTO'
-        purpleText='WEB'
+        title={
+          <>
+            DESENVOLVIMENTO <span>WEB</span>
+          </>
+        }
         text={TextDevWeb()}
         srcImg={DevWeb}
+      />
+      <PageImg
+        title={
+          <>
+            PRINCIPAIS <span>TECNOLOGIAS</span>
+          </>
+        }
+        text={TextTecs()}
+        srcImg={Tecs}
+      />
+      <FullText
+        title={
+          <>
+            ENTENDENDO O <span>DOM</span>
+          </>
+        }
+        text='....'
       />
     </Carousel>
   )

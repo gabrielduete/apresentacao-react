@@ -2,12 +2,10 @@ import Proptypes from 'prop-types'
 import Container from '../Container'
 import * as S from './styles'
 
-const PageImg = ({ title, text, purpleText, srcImg }) => (
+const PageImg = ({ title, text, srcImg }) => (
   <Container>
     <S.Wrapper>
-      <S.Title>
-        {title} <span>{purpleText}</span>
-      </S.Title>
+      <S.Title>{title}</S.Title>
       <S.Text>{text}</S.Text>
       <S.Image src={srcImg} alt={srcImg} />
     </S.Wrapper>
@@ -17,7 +15,6 @@ const PageImg = ({ title, text, purpleText, srcImg }) => (
 PageImg.prototype = {
   title: Proptypes.string.isRequired,
   text: Proptypes.node.isRequired,
-  purpleText: Proptypes.string,
   srcImg: Proptypes.string.isRequired,
 }
 

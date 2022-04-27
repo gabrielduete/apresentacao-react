@@ -2,14 +2,11 @@ import PropTypes from 'prop-types'
 import Container from '../Container'
 import * as S from './styles'
 
-function FullText({ title, text, purpleText }) {
+function FullText({ title, text }) {
   return (
     <Container center={true}>
       <S.Wrapper>
-        <S.Title>
-          {title}
-          <span>{purpleText}</span>
-        </S.Title>
+        <S.Title>{title}</S.Title>
         <S.Text>{text}</S.Text>
       </S.Wrapper>
     </Container>
@@ -18,7 +15,6 @@ function FullText({ title, text, purpleText }) {
 
 FullText.propTypes = {
   title: PropTypes.string.isRequired,
-  purpleText: PropTypes.string,
   text: PropTypes.string.isRequired,
 }
 
