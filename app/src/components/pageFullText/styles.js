@@ -14,4 +14,5 @@ export const Title = styled.h1`
 export const Text = styled.p`
   font-size: var(--font-medium);
   margin-top: 10px;
+  padding: ${props => (props.padding ? '100px' : '0')};
 `
