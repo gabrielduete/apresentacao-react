@@ -3,6 +3,7 @@ import FullText from '../pageFullText/index'
 import PageImg from '../pageImg'
 import DevWeb from '../../assets/img/undraw_Internet_on_the_go_re_vben.png'
 import Tecs from '../../assets/img/undraw_Static_website_re_x70h.png'
+import TecsJs from '../../assets/img/htmlcssjs.png'
 import { TextDevWeb, TextTecs } from './index.data'
 
 function CarouselSlide() {
@@ -43,11 +44,25 @@ function CarouselSlide() {
       <FullText
         title={
           <>
+            FAMOSO <span>JAVASCRIPT</span>
+          </>
+        }
+        padding={true}
+        text='JavaScript é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js,  Apache CouchDB e Adobe Acrobat. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional). Saiba mais sobre o JavaScript.'
+      />
+      <FullText
+        title={
+          <>
             ENTENDENDO O <span>DOM</span>
           </>
         }
         padding={true}
         text='O Document Object Model (DOM) é uma interface de programação para os documentos HTML e XML. Representa a página de forma que os programas possam alterar a estrutura do documento, alterar o estilo e conteúdo. O DOM representa o documento com nós e objetos, dessa forma, as linguagens de programação podem se conectar à página.'
+      />
+      <PageImg
+        title='HTML, CSS & JAVASCRIPT'
+        srcImg={TecsJs}
+        text='O HTML é o esqueleto, composto dos ossos que o sustenta. O CSS é a pele, cabelo e roupas, criando o visual que realmente enxergamos quando olhamos para alguma pessoa. E por fim, o Javascript é o músculo, que dá movimento ao corpo.'
       />
     </Carousel>
   )
