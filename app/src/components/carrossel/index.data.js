@@ -14,3 +14,12 @@ export const TextTecs = () => (
     <li>Javascript</li>
   </ul>
 )
+
+export const TextReact = () => (
+  <ul>
+    <li>Em alta no mercado</li>
+    <li>Componentes reutilizáveis</li>
+    <li>Flexibilidade</li>
+    <li>Amigo do React Native</li>
+  </ul>
+)

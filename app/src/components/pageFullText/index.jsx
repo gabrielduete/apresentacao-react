@@ -16,6 +16,7 @@ function FullText({ title, text, padding }) {
 FullText.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  padding: PropTypes.bool.isRequired,
 }
 
 export default FullText
