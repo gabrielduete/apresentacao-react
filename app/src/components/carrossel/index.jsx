@@ -5,7 +5,8 @@ import DevWeb from '../../assets/img/undraw_Internet_on_the_go_re_vben.png'
 import Tecs from '../../assets/img/undraw_Static_website_re_x70h.png'
 import TecsJs from '../../assets/img/htmlcssjs.png'
 import ReactImg from '../../assets/img/undraw_react_y7wq.png'
-import { TextDevWeb, TextTecs, TextReact } from './index.data'
+import Dev from '../../assets/img/undraw_version_control_re_mg66.png'
+import { TextDevWeb, TextTecs, TextReact, TextGap } from './index.data'
 
 function CarouselSlide() {
   return (
@@ -83,7 +84,7 @@ function CarouselSlide() {
         srcImg={ReactImg}
         text={TextReact()}
       />
-      <PageImg title={<>Mais afundo...</>} />
+      <PageImg title={<>Mais afundo...</>} srcImg={Dev} text={TextGap()} />
     </Carousel>
   )
 }

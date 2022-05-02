@@ -23,3 +23,12 @@ export const TextReact = () => (
     <li>Amigo do React Native</li>
   </ul>
 )
+
+export const TextGap = () => (
+  <ul>
+    <li>Props</li>
+    <li>State</li>
+    <li>Virtual DOM</li>
+    <li>Extensão JSX</li>
+  </ul>
+)
