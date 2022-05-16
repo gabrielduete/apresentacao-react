@@ -4,8 +4,10 @@ import PageImg from '../pageImg'
 import DevWeb from '../../assets/img/undraw_Internet_on_the_go_re_vben.png'
 import Tecs from '../../assets/img/undraw_Static_website_re_x70h.png'
 import TecsJs from '../../assets/img/htmlcssjs.png'
+import Fb from '../../assets/img/fb.png'
 import ReactImg from '../../assets/img/undraw_react_y7wq.png'
 import Dev from '../../assets/img/undraw_version_control_re_mg66.png'
+import Jest from '../../assets/img/jest.png'
 import { TextDevWeb, TextTecs, TextReact, TextGap } from './index.data'
 
 function CarouselSlide() {
@@ -78,13 +80,31 @@ function CarouselSlide() {
       <PageImg
         title={
           <>
+            DE ONDE VEIO O <span>REACT?</span>
+          </>
+        }
+        srcImg={Fb}
+        text='Criado pelo time do Facebook, com intuito de sincronizar todas os estados que estão acontecendo na tela simultaneamente. Resolvendo o problema de comunicação com os componentes da tela de maneira sincronizada e fácil de manter.  '
+      />
+      <PageImg
+        title={
+          <>
             PORQUE <span>REACT</span> É TÃO IMPORTANTE?
           </>
         }
         srcImg={ReactImg}
         text={TextReact()}
       />
-      <PageImg title={<>Mais afundo...</>} srcImg={Dev} text={TextGap()} />
+      <PageImg title='Mais afundo...' srcImg={Dev} text={TextGap()} />
+      <PageImg
+        title={
+          <>
+            <span>+</span> Valor de mercado
+          </>
+        }
+        srcImg={Jest}
+        text='Podemos introduzir uma estrutura de teste no nosso projeto React, para construir testes unitários dos componentes criados.'
+      />
     </Carousel>
   )
 }
@@ -96,4 +116,5 @@ https://www.alura.com.br/artigos/react-front-end-e-o-mercado#:~:text=O%20React%2
 https://medium.com/reactbrasil/mercado-de-trabalho-react-js-97d0cb6663f7
 https://tutano.trampos.co/16866-desenvolvedor-front-end-react/#:~:text=Simples%20e%20leve%2C%20React%20permite,front%2Dend%20deve%20aprender%20React.
 https://kenzie.com.br/blog/react/
+https://dev.to/destro_mas/jest-snapshot-testing-for-react-components-is-useless-is-it-slowly-dying-4cce
 */

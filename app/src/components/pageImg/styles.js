@@ -18,12 +18,10 @@ export const Title = styled.h1`
 export const Text = styled.div`
   grid-area: text;
   font-size: var(--font-medium);
-  margin-left: 20px;
 `
 
 export const Image = styled.img`
   grid-area: image;
   align-content: end;
-
   width: 560px;
 `
