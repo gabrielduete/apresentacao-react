@@ -5,7 +5,7 @@ import * as S from './styles'
 const PageImg = ({ title, text, srcImg }) => (
   <Container>
     <S.Wrapper>
-      <S.Title>{title}</S.Title>
+      <S.Title data-testid='page-image__title'>{title}</S.Title>
       <S.Text>{text}</S.Text>
       <S.Image src={srcImg} alt={srcImg} />
     </S.Wrapper>
