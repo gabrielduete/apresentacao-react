@@ -68,15 +68,6 @@ function CarouselSlide() {
         srcImg={TecsJs}
         text='O HTML é o esqueleto, composto dos ossos que o sustenta. O CSS é a pele, cabelo e roupas, criando o visual que realmente enxergamos quando olhamos para alguma pessoa. E por fim, o Javascript é o músculo, que dá movimento ao corpo.'
       />
-      <FullText
-        title={
-          <>
-            ENTRANDO NO <span>REACT</span>
-          </>
-        }
-        padding={true}
-        text='React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais. É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outros.'
-      />
       <PageImg
         title={
           <>
@@ -85,6 +76,15 @@ function CarouselSlide() {
         }
         srcImg={Fb}
         text='Criado pelo time do Facebook, com intuito de sincronizar todas os estados que estão acontecendo na tela simultaneamente. Resolvendo o problema de comunicação com os componentes da tela de maneira sincronizada e fácil de manter.  '
+      />
+      <FullText
+        title={
+          <>
+            ENTRANDO NO <span>REACT</span>
+          </>
+        }
+        padding={true}
+        text='React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais. É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outros.'
       />
       <PageImg
         title={

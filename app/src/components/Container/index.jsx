@@ -3,7 +3,10 @@ import ContainerLayout from './styles'
 
 const Container = ({ children, center }) => {
   return (
-    <ContainerLayout display={center ? 'flex' : 'block'}>
+    <ContainerLayout
+      data-testid='container-layout__container'
+      display={center ? 'flex' : 'block'}
+    >
       {children}
     </ContainerLayout>
   )

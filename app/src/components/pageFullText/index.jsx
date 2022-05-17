@@ -6,7 +6,7 @@ function FullText({ title, text, padding }) {
   return (
     <Container center={true}>
       <S.Wrapper>
-        <S.Title>{title}</S.Title>
+        <S.Title data-testid='page-image__title'>{title}</S.Title>
         <S.Text padding={padding}>{text}</S.Text>
       </S.Wrapper>
     </Container>
