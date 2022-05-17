@@ -45,6 +45,20 @@ const GlobalStyles = createGlobalStyle`
   button{
     cursor: pointer;
   }
+
+  img{
+    width: 600px;
+  }
+
+  section{
+    display: flex;
+  }
+  
+  article{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+  }
 `
 
 export default GlobalStyles

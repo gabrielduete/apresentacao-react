@@ -1,3 +1,6 @@
+import Componente from '../../assets/img/componente.jpg'
+import Test from '../../assets/img/test.jpg'
+
 export const TextDevWeb = () => (
   <ul>
     <li>O que é Desenvolvimento Web?</li>
@@ -31,4 +34,18 @@ export const TextGap = () => (
     <li>Virtual DOM</li>
     <li>Extensão JSX</li>
   </ul>
+)
+
+export const TextPratic = () => (
+  <section>
+    <article>
+      Componente
+      <img src={Componente} alt={Componente} />
+    </article>
+    <hr />
+    <article>
+      Teste
+      <img src={Test} alt={Test} />
+    </article>
+  </section>
 )

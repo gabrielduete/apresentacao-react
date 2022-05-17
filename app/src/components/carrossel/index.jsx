@@ -8,7 +8,13 @@ import Fb from '../../assets/img/fb.png'
 import ReactImg from '../../assets/img/undraw_react_y7wq.png'
 import Dev from '../../assets/img/undraw_version_control_re_mg66.png'
 import Jest from '../../assets/img/jest.png'
-import { TextDevWeb, TextTecs, TextReact, TextGap } from './index.data'
+import {
+  TextDevWeb,
+  TextTecs,
+  TextReact,
+  TextGap,
+  TextPratic,
+} from './index.data'
 
 function CarouselSlide() {
   return (
@@ -105,6 +111,7 @@ function CarouselSlide() {
         srcImg={Jest}
         text='Podemos introduzir uma estrutura de teste no nosso projeto React, para construir testes unitários dos componentes criados.'
       />
+      <FullText title='NA PRATICA' text={TextPratic()} />
     </Carousel>
   )
 }
