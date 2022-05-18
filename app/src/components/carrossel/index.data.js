@@ -24,6 +24,7 @@ export const TextReact = () => (
     <li>Componentes reutilizáveis</li>
     <li>Flexibilidade</li>
     <li>Amigo do React Native</li>
+    <li>Comunidade gigante</li>
   </ul>
 )
 
@@ -48,4 +49,43 @@ export const TextPratic = () => (
       <img src={Test} alt={Test} />
     </article>
   </section>
+)
+
+export const TextReferences = () => (
+  <>
+    <p>
+      <a href='https://www.alura.com.br/artigos/react-front-end-e-o-mercado#:~:text=O%20React%20%C3%A9%20um%20dos,muito%20mais%20credibilidade%20pra%20ferramenta.'>
+        FERREIRA, Gabs; React, front end e o mercado; ALURA 2017; Acesso em 10
+        maio 2022.
+      </a>
+    </p>
+
+    <p>
+      <a href='https://medium.com/reactbrasil/mercado-de-trabalho-react-js-97d0cb6663f7'>
+        NICHOLAS, Eduardo; Mercado de trabalho com ReactJs. MEDIUM 22 abril
+        2018; Acesso em 10 maio 2022.
+      </a>
+    </p>
+
+    <p>
+      <a href='https://tutano.trampos.co/16866-desenvolvedor-front-end-react/'>
+        Udacity Brasil; POR QUE UM DESENVOLVEDOR FRONT-END DEVE SABER REACT?;
+        s.d.; Acesso em 10 maio 2022.
+      </a>
+    </p>
+
+    <p>
+      <a href='https://kenzie.com.br/blog/react/'>
+        ROVEDA, Ugo; REACT: O QUE É, COMO FUNCIONA E PORQUE USAR E COMO
+        APRENDER; 16 nov 2020; Acesso em 10 maio 2020.
+      </a>
+    </p>
+
+    <p>
+      <a href='https://dev.to/destro_mas/jest-snapshot-testing-for-react-components-is-useless-is-it-slowly-dying-4cce'>
+        TALUKDAR, Shahjada; Jest Snapshot Testing for React Components is
+        useless? Is it slowly dying?; 16 nov de 2019; Acesso em 15 maio 2020.
+      </a>
+    </p>
+  </>
 )

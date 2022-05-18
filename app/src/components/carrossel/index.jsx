@@ -1,6 +1,7 @@
 import Carousel from 'react-elastic-carousel'
 import FullText from '../pageFullText/index'
 import PageImg from '../pageImg'
+import Team from '../team'
 import DevWeb from '../../assets/img/undraw_Internet_on_the_go_re_vben.png'
 import Tecs from '../../assets/img/undraw_Static_website_re_x70h.png'
 import TecsJs from '../../assets/img/htmlcssjs.png'
@@ -14,6 +15,7 @@ import {
   TextReact,
   TextGap,
   TextPratic,
+  TextReferences,
 } from './index.data'
 
 function CarouselSlide() {
@@ -112,16 +114,10 @@ function CarouselSlide() {
         text='Podemos introduzir uma estrutura de teste no nosso projeto React, para construir testes unitários dos componentes criados.'
       />
       <FullText title='NA PRATICA' text={TextPratic()} />
+      <FullText title='REFERÊNCIAS' padding={true} text={TextReferences()} />
+      <Team />
     </Carousel>
   )
 }
 
 export default CarouselSlide
-
-/*
-https://www.alura.com.br/artigos/react-front-end-e-o-mercado#:~:text=O%20React%20%C3%A9%20um%20dos,muito%20mais%20credibilidade%20pra%20ferramenta.
-https://medium.com/reactbrasil/mercado-de-trabalho-react-js-97d0cb6663f7
-https://tutano.trampos.co/16866-desenvolvedor-front-end-react/#:~:text=Simples%20e%20leve%2C%20React%20permite,front%2Dend%20deve%20aprender%20React.
-https://kenzie.com.br/blog/react/
-https://dev.to/destro_mas/jest-snapshot-testing-for-react-components-is-useless-is-it-slowly-dying-4cce
-*/

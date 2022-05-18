@@ -50,6 +50,10 @@ const GlobalStyles = createGlobalStyle`
     width: 600px;
   }
 
+  a{
+    color: white;
+  }
+
   section{
     display: flex;
   }
