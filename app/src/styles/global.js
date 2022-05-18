@@ -24,6 +24,13 @@ const GlobalStyles = createGlobalStyle`
     background: linear-gradient(90deg, rgba(42,41,40,1) 0%, rgba(12,11,13,1) 50%, rgba(42,41,40,1) 100%);
     color: var(--white-simple);
     margin: 50px;
+
+    @media(max-width: 800px) {
+      content: 'Responsividade em breve...';
+      display: none;    
+      background: rgb(42,41,40);
+      background: linear-gradient(90deg, rgba(42,41,40,1) 0%, rgba(12,11,13,1) 50%, rgba(42,41,40,1) 100%);
+    }
   }
 
   h1{
